@@ -84,7 +84,6 @@ export default {
                         console.log(response)
                         localStorage.setItem('token', response.access_token)
 
-
                     }
                     else {
                         this.toast.error(response.detail);
