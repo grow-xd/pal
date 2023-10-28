@@ -18,5 +18,9 @@ After the the user sign up they can see the location of the friends who are in t
 <p align="left">SQLite3</p>
 <div align="left"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/SQLite370.svg/2560px-SQLite370.svg.png" height="40" alt="sqlite logo"  />
 <img width="12" /></div>
+<h1 align="left">Version 0.1</h1>
+<p align="left">Added frontend- designed layout in the frontend of Login and SignUp pages</p>
+<h1 align="left">Version 0.2</h1>
+<p align="left">Added backend- SignIn and LogIn pages linked to backend</p>
 
 
