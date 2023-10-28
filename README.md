@@ -22,5 +22,12 @@ After the the user sign up they can see the location of the friends who are in t
 <p align="left">Added frontend- designed layout in the frontend of Login and SignUp pages</p>
 <h1 align="left">Version 0.2</h1>
 <p align="left">Added backend- SignIn and LogIn pages linked to backend</p>
+<h1 align="left">Version 0.3</h1>
+<p align="left">Changed database from SQLite to mySQL.</p>
+<p align="left">Intgrated 6 APIs </p>
+<p align="left">1- To respond by giving on the groups 2-Respond by giving all user profiles 3-Respond by giving all user's friend 4-For creating groups in which each group 5-For other users joining the group's unique id 6-Group members adding their friends</p>
+
+
+
 
 
