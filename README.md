@@ -18,6 +18,7 @@ After the the user sign up they can see the location of the friends who are in t
 <p align="left">SQLite3</p>
 <div align="left"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/SQLite370.svg/2560px-SQLite370.svg.png" height="40" alt="sqlite logo"  />
 <img width="12" /></div>
+
 <h1 align="left">Version 0.1</h1>
 <p align="left">Added frontend- designed layout in the frontend of Login and SignUp pages</p>
 <h1 align="left">Version 0.2</h1>
@@ -25,7 +26,13 @@ After the the user sign up they can see the location of the friends who are in t
 <h1 align="left">Version 0.3</h1>
 <p align="left">Changed database from SQLite to mySQL.</p>
 <p align="left">Intgrated 6 APIs </p>
-<p align="left">1- To respond by giving on the groups 2-Respond by giving all user profiles 3-Respond by giving all user's friend 4-For creating groups in which each group 5-For other users joining the group's unique id 6-Group members adding their friends</p>
+<p align="left">1- To respond by giving on the groups  </p>
+<p align="left">2-Respond by giving all user profiles</p>
+<p align="left">3-Respond by giving all user's friend</p>
+<p align="left">4-For creating groups in which each group</p>
+<p align="left">5-For other users joining the group's unique id </p>
+<p align="left">6-Group members adding their friends</p>
+
 
 
 
