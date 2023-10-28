@@ -39,6 +39,7 @@ def signup(request):
         return Response({
             'access_token': access_token,
             'refresh_token': refresh_token,
+            'status':status.HTTP_200_OK
         }, status=status.HTTP_201_CREATED)
     return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
