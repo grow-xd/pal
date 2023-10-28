@@ -89,9 +89,9 @@ export default {
                         this.toast.error(response.detail);
 
                     }
-                    // setTimeout(() => {
-                    //     window.location.href = '/home'
-                    // }, 2000)
+                    setTimeout(() => {
+                        window.location.href = '/home'
+                    }, 2000)
 
                 })
         }

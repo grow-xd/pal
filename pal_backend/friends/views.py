@@ -47,6 +47,20 @@ def list_friends(request, user_id):
         filtered_data = CustomUser.objects.filter(id__in=friends_list)
         serializer2 = CustomSerializer(filtered_data, many=True)
         return Response(serializer2.data)
+    
+@api_view(['GET'])
+def list_loc_friends(request, user_id, loc):
+    try:
+        user_profile = UserProfile.objects.get(user_id=user_id)
+    except UserProfile.DoesNotExist:
+        return Response(status=status.HTTP_404_NOT_FOUND)
+
+    if request.method == 'GET':
+        serializer = FriendListSerializer(user_profile)
+        friends_list = serializer.data.get("friends", [])
+        filtered_data = CustomUser.objects.filter(id__in=friends_list).filter(location__in=loc)
+        serializer2 = CustomSerializer(filtered_data, many=True)
+        return Response(serializer2.data)
 
 @api_view(['POST'])
 def create_group(request):
