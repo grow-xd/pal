@@ -1,0 +1,38 @@
+GET http://127.0.0.1:8000/api/userprofiles/2/friends/ HTTP/1.1
+Content-Type: application/xml
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk4OTM0OTgyLCJpYXQiOjE2OTg1MDI5ODIsImp0aSI6ImNlZDdkYTE4NzcxYTQ3ZDViZjMzYjVkZWYyNjhiMzE3IiwidXNlcl9pZCI6N30.McJ3URhWRrI3SpEqgJm3IFWW77epXFmtfS68rDEUH7w
+###
+
+GET http://localhost:8000/api/get_user_info/ HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk4OTQwMTUyLCJpYXQiOjE2OTg1MDgxNTIsImp0aSI6IjAwMzA2ZjYzMjc5ZjQxYzJhZDk2ZmUyYmY2ZTQ2MDM5IiwidXNlcl9pZCI6Mn0.p-mr-WWUM8C4ghti7kRE0EkvghcXThexCX9PMEreGoc
+
+###
+
+POST http://localhost:8000/api/add_friend/test2/ HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk4OTQwNzQzLCJpYXQiOjE2OTg1MDg3NDMsImp0aSI6ImI5NDFjNzRhOGFjMDQ3NzU5ZmJlOWNmODc5MzU4NGVjIiwidXNlcl9pZCI6M30.4GeWFVLCRMjjuRhiRL8yk5nvin_lRTNcI1G9RkYfsq4
+###
+
+POST http://localhost:8000/api/groups/create/ HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk4OTM0OTgyLCJpYXQiOjE2OTg1MDI5ODIsImp0aSI6ImNlZDdkYTE4NzcxYTQ3ZDViZjMzYjVkZWYyNjhiMzE3IiwidXNlcl9pZCI6N30.McJ3URhWRrI3SpEqgJm3IFWW77epXFmtfS68rDEUH7w
+
+{
+    "name": "sample"
+}
+
+###
+
+POST http://localhost:8000/api/groups/join/ HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk4NzczODM5LCJpYXQiOjE2OTgzNDE4MzksImp0aSI6ImEyYjE5OGQzNDI4ODQwNzE4Y2I4Y2Y1ODFmNGRmNTFiIiwidXNlcl9pZCI6M30.20KA1qVsfpvauuFa3YOCRGTQ8ung5wC_lYpsy4FuqFU
+
+{
+    "unique_code": "DTUAAV"
+}
+
+
+###
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk4OTQwMTUyLCJpYXQiOjE2OTg1MDgxNTIsImp0aSI6IjAwMzA2ZjYzMjc5ZjQxYzJhZDk2ZmUyYmY2ZTQ2MDM5IiwidXNlcl9pZCI6Mn0.p-mr-WWUM8C4ghti7kRE0EkvghcXThexCX9PMEreGoc

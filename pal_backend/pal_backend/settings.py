@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_simplejwt',
     'account',
+    'friends',
     'corsheaders',
 ]
 
@@ -134,8 +135,12 @@ WSGI_APPLICATION = 'pal_backend.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'htm',
+        'USER': 'root',
+        'PASSWORD': '1234',
+        'HOST': 'localhost',  # Change to your MySQL host if it's not on localhost
+        'PORT': '',           # Leave empty for the default MySQL port (3306)
     }
 }
 

@@ -10,19 +10,19 @@
                     <label class="block font-semibold"> Full Name</label>
                     <input type="text" v-model="name" placeholder="Full Name"
                         class="border w-full h-5 px-3 py-5 mt-2 hover:outline-none focus:outline-none focus:ring-indigo-500 focus:ring-1 rounded-md">
-                    {{ name }}
+                    <!-- {{ name }} -->
                     <label class="block mt-3 font-semibold"> Username</label>
                     <input type="text" v-model="username" placeholder="Username"
                         class="border w-full h-5 px-3 py-5 mt-2 hover:outline-none focus:outline-none focus:ring-indigo-500 focus:ring-1 rounded-md">
-                    {{ username }}
+                    <!-- {{ username }} -->
                     <label class="block mt-3 font-semibold"> Password</label>
                     <input type="password" v-model="password" placeholder="Password"
                         class="border w-full h-5 px-3 py-5 mt-2 hover:outline-none focus:outline-none focus:ring-indigo-500 focus:ring-1 rounded-md">
-                    {{ password }}
+                    <!-- {{ password }} -->
                     <label class="block mt-3 font-semibold"> Current Location</label>
                     <input type="text" v-model="location" placeholder="Location"
                         class="border w-full h-5 px-3 py-5 mt-2 hover:outline-none focus:outline-none focus:ring-indigo-500 focus:ring-1 rounded-md">
-                    {{ location }}
+                    <!-- {{ location }} -->
                     <div class="flex justify-center items-baseline">
                         <button type="submit" @click="submit"
                             class="mt-4 bg-purple-500 text-white py-2 px-6  rounded-md hover:bg-purple-600 ">Signup</button>
