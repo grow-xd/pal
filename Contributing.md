@@ -1,4 +1,4 @@
-# Requirements for Contributions 💯
+# How to contribute 💯
 
 This documentation provides a series of instructions that will assist you in adding to this repository.
 
