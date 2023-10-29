@@ -1,4 +1,10 @@
-GET http://127.0.0.1:8000/api/userprofiles/2/friends/ HTTP/1.1
+GET http://127.0.0.1:8000/api/userprofiles/1/friends/ HTTP/1.1
+Content-Type: application/xml
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk4OTQwMTUyLCJpYXQiOjE2OTg1MDgxNTIsImp0aSI6IjAwMzA2ZjYzMjc5ZjQxYzJhZDk2ZmUyYmY2ZTQ2MDM5IiwidXNlcl9pZCI6Mn0.p-mr-WWUM8C4ghti7kRE0EkvghcXThexCX9PMEreGoc
+
+###
+
+GET http://127.0.0.1:8000/api/userprofiles/2/friends/noida HTTP/1.1
 Content-Type: application/xml
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk4OTM0OTgyLCJpYXQiOjE2OTg1MDI5ODIsImp0aSI6ImNlZDdkYTE4NzcxYTQ3ZDViZjMzYjVkZWYyNjhiMzE3IiwidXNlcl9pZCI6N30.McJ3URhWRrI3SpEqgJm3IFWW77epXFmtfS68rDEUH7w
 ###
@@ -9,14 +15,15 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiY
 
 ###
 
-POST http://localhost:8000/api/add_friend/test2/ HTTP/1.1
+POST http://localhost:8000/api/add_friend/mohit/ HTTP/1.1
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk4OTQwNzQzLCJpYXQiOjE2OTg1MDg3NDMsImp0aSI6ImI5NDFjNzRhOGFjMDQ3NzU5ZmJlOWNmODc5MzU4NGVjIiwidXNlcl9pZCI6M30.4GeWFVLCRMjjuRhiRL8yk5nvin_lRTNcI1G9RkYfsq4
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk4OTU4NzUwLCJpYXQiOjE2OTg1MjY3NTAsImp0aSI6IjgxY2IwZGM5Mzk3NTQ2ZjRiYTU5MmIxZDQyNzIxZmQ2IiwidXNlcl9pZCI6MX0.hrsXHYEKDDOJabYAq53rAK3ltwXmyKTn1MUq1Pk4W4Q
+
 ###
 
 POST http://localhost:8000/api/groups/create/ HTTP/1.1
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk4OTM0OTgyLCJpYXQiOjE2OTg1MDI5ODIsImp0aSI6ImNlZDdkYTE4NzcxYTQ3ZDViZjMzYjVkZWYyNjhiMzE3IiwidXNlcl9pZCI6N30.McJ3URhWRrI3SpEqgJm3IFWW77epXFmtfS68rDEUH7w
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk4OTU2NzcwLCJpYXQiOjE2OTg1MjQ3NzAsImp0aSI6IjkxOGU4NGI1Mzc4NjQwMTk4YzVjYWU3OGY1NjFmYTRlIiwidXNlcl9pZCI6Mn0.1zMqByrya842yZnZN0OC-WlwYk9LUS1_BxRmp8b_zAQ
 
 {
     "name": "sample"
@@ -24,12 +31,19 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiY
 
 ###
 
+GET http://localhost:8000/api/groups/all/ HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk4OTU2NzcwLCJpYXQiOjE2OTg1MjQ3NzAsImp0aSI6IjkxOGU4NGI1Mzc4NjQwMTk4YzVjYWU3OGY1NjFmYTRlIiwidXNlcl9pZCI6Mn0.1zMqByrya842yZnZN0OC-WlwYk9LUS1_BxRmp8b_zAQ
+
+
+###
+
 POST http://localhost:8000/api/groups/join/ HTTP/1.1
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk4NzczODM5LCJpYXQiOjE2OTgzNDE4MzksImp0aSI6ImEyYjE5OGQzNDI4ODQwNzE4Y2I4Y2Y1ODFmNGRmNTFiIiwidXNlcl9pZCI6M30.20KA1qVsfpvauuFa3YOCRGTQ8ung5wC_lYpsy4FuqFU
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk4OTU4NzUwLCJpYXQiOjE2OTg1MjY3NTAsImp0aSI6IjgxY2IwZGM5Mzk3NTQ2ZjRiYTU5MmIxZDQyNzIxZmQ2IiwidXNlcl9pZCI6MX0.hrsXHYEKDDOJabYAq53rAK3ltwXmyKTn1MUq1Pk4W4Q
 
 {
-    "unique_code": "DTUAAV"
+    "unique_code": "SV4ZIY"
 }
 
 
