@@ -1,6 +1,5 @@
-
 <template>
-    <div class="bg-blue-700 h-screen rounded-xl m-2">
+    <div class="bg-[url('../assets/img6.jpg')] h-screen rounded-xl m-2">
         <div class="text-center text-7xl font-bold p-20 text-white">
             Welcome, {{ name }}
         </div>
@@ -16,7 +15,7 @@
         <div class="grid grid-cols-2 divide-x pt-6 ">
 
 
-            <div class="col-span-1 min-h-screen items-center justify-center">
+            <div class="col-span-1 items-center justify-center">
 
                 <div class=" text-center text-2xl underline font-bold text-white p-4">
                     <br>
@@ -51,6 +50,7 @@
                 </div>
             </div>
         </div>
+        
     </div>
 </template>
 
