@@ -30,19 +30,26 @@ After the the user sign up they can see the location of the friends who are in t
 <h1 align="left">Version 0.3</h1>
 <p align="left">Changed database from SQLite to mySQL.</p>
 <p align="left">Intgrated 6 APIs </p>
-<p align="left">1- To respond by giving on the groups  </p>
-<p align="left">2-Respond by giving all user profiles</p>
-<p align="left">3-Respond by giving all user's friend</p>
-<p align="left">4-For creating groups in which each group</p>
-<p align="left">5-For other users joining the group's unique id </p>
-<p align="left">6-Group members adding their friends</p>
+<p align="left"> -To respond by giving on the groups  </p>
+<p align="left"> -Respond by giving all user profiles</p>
+<p align="left"> -Respond by giving all user's friend</p>
+<p align="left"> -For creating groups in which each group</p>
+<p align="left"> -For other users joining the group's unique id </p>
+<p align="left"> -Group members adding their friends</p>
 <h1 align="left">Version 0.3.1</h1>
 <p align="left">Added 5 dynamic web pages</p>
-<p align="left">1- To view friend in your area</p>
-<p align="left">2- To view communities you are a part of</p>
-<p align="left">3- A page for logout view</p>
-<p align="left">4- A page to view profile of the user</p>
-<p align="left">5- Home page</p>
+<p align="left"> -To view friend in your area</p>
+<p align="left"> -To view communities you are a part of</p>
+<p align="left"> -A page for logout view</p>
+<p align="left"> -A page to view profile of the user</p>
+<p align="left"> -Home page</p>
+<h1 align="left">Version 1.0.0</h1>
+<p align="left"> -Backend implemented in 5 web pages</p>
+<p align="left"> -Rooting fixed</p>
+<p align="left"> -Improved design and styling</p>
+
+
+
 
 
 
