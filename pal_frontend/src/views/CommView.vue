@@ -1,5 +1,5 @@
 <template>
-    <div class="grid grid-cols-9 h-screen bg-[url('../assets/4570104.jpg')] p-5">
+    <div class="grid grid-cols-9 h-screen bg-[url('../assets/img5.jpg')] p-5">
         <div class="text-4xl col-span-9 font-bold text-white text-center p-5">Communities</div>
 
 

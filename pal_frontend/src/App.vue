@@ -104,9 +104,6 @@ import { RouterLink, RouterView } from 'vue-router'
       <hr />
       <p class="text-center py-5">
         Crafted with ❤️ Tech Agents
-        <span class="font-black"
-          ><Link href="https://twitter.com/">hi</Link></span
-        >
       </p>
     </footer>
  
