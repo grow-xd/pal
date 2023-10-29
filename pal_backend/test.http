@@ -4,9 +4,10 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiY
 
 ###
 
-GET http://127.0.0.1:8000/api/userprofiles/2/friends/noida HTTP/1.1
+GET http://127.0.0.1:8000/api/userprofiles/2/friends/gurugram HTTP/1.1
 Content-Type: application/xml
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk4OTM0OTgyLCJpYXQiOjE2OTg1MDI5ODIsImp0aSI6ImNlZDdkYTE4NzcxYTQ3ZDViZjMzYjVkZWYyNjhiMzE3IiwidXNlcl9pZCI6N30.McJ3URhWRrI3SpEqgJm3IFWW77epXFmtfS68rDEUH7w
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk4OTQwMTUyLCJpYXQiOjE2OTg1MDgxNTIsImp0aSI6IjAwMzA2ZjYzMjc5ZjQxYzJhZDk2ZmUyYmY2ZTQ2MDM5IiwidXNlcl9pZCI6Mn0.p-mr-WWUM8C4ghti7kRE0EkvghcXThexCX9PMEreGoc
+
 ###
 
 GET http://localhost:8000/api/get_user_info/ HTTP/1.1
@@ -49,4 +50,27 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiY
 
 ###
 
+POST http://localhost:8000/api/travel/update-travel/ HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk4OTU4NzUwLCJpYXQiOjE2OTg1MjY3NTAsImp0aSI6IjgxY2IwZGM5Mzk3NTQ2ZjRiYTU5MmIxZDQyNzIxZmQ2IiwidXNlcl9pZCI6MX0.hrsXHYEKDDOJabYAq53rAK3ltwXmyKTn1MUq1Pk4W4Q
+
+{
+    "location": "New Location",
+    "arrival_date": "2023-12-01",
+    "departure_date": "2023-12-15",
+    "available_dates": "2023-12-01, 2023-12-02, 2023-12-03"
+}
+
+
+###
+
+
+GET http://localhost:8000/api/common-dates/calculate-common-dates/ HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk4OTU4NzUwLCJpYXQiOjE2OTg1MjY3NTAsImp0aSI6IjgxY2IwZGM5Mzk3NTQ2ZjRiYTU5MmIxZDQyNzIxZmQ2IiwidXNlcl9pZCI6MX0.hrsXHYEKDDOJabYAq53rAK3ltwXmyKTn1MUq1Pk4W4Q
+
+
+
+
+###
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk4OTQwMTUyLCJpYXQiOjE2OTg1MDgxNTIsImp0aSI6IjAwMzA2ZjYzMjc5ZjQxYzJhZDk2ZmUyYmY2ZTQ2MDM5IiwidXNlcl9pZCI6Mn0.p-mr-WWUM8C4ghti7kRE0EkvghcXThexCX9PMEreGoc

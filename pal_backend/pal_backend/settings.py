@@ -45,9 +45,12 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework_simplejwt',
+    'corsheaders',
     'account',
     'friends',
-    'corsheaders',
+    'travel',
+    'commondate',
+    
 ]
 
 REST_FRAMEWORK = {
@@ -65,6 +68,7 @@ CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOW_ALL_ORIGINS=True
 
+CORS_ALLOW_HEADERS = ['*']
 
 CORS_ALLOW_METHODS = [
     "DELETE",
